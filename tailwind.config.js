@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  important: "html",
   content: [
     './_site/**/*.{html,md}',
   ],
@@ -12,8 +13,16 @@ module.exports = {
         'theme-color': '#1188D6',
         'theme-header-bg': '#1188D6',
         'theme-header-nav-link': '#FFFFFF',
-        'theme-header-nav-link-sel': '#3CA8EF',
+        'theme-header-nav-link-sel': '#FFFFFF',
+        'theme-header-nav-link-bg': 'transparent',
+        'theme-header-nav-link-bg-sel': '#3ca8ef',
         'theme-header-logo-message': '#FFFFFF',
+        'theme-header-support-button': '#1188D6',
+        'theme-header-support-button-hover': '#1188D6',
+        'theme-header-support-button-bg': '#FFFFFF',
+        'theme-header-support-button-bg-hover': '#E0E5E9',
+        'theme-mobile-menu-icon': '#FFFFFF',
+        'theme-mobile-menu-icon-hover': '#3ca8ef',
       },
       typography: (theme) => ({
         DEFAULT: {
