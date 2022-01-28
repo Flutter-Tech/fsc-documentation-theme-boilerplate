@@ -57,7 +57,7 @@ Update the tailwind.config.js with the wanted changes and then run the build com
 
 To customize the theme colors edit the following lines in the tailwind.config.js file:
 
-```json
+```plain
   theme: {
     extend: {
       colors: {
